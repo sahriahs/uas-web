@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+a{
+  /* text-decoration: none; */
+  color: whitesmoke;
+}
+body{
+  background: linear-gradient( var(--primary-color), #F6A21E);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.container a{
+  align-items: center;
+  align-content: center;
+}
+.container{
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  margin: 6rem auto 8.1rem auto;
+  max-width: 600px;
+  padding: 10px;
+  color: white;
+}
+.judul{
+  margin: 15px;
+  font-size: 20px;
+}
+form{
+  align-content: center;
+}
+.form-content{
+  padding: 15px 44px;
+  -webkit-box-align: center;
+  border-radius: 400px;
+  width: 250px;
+  margin-top: 5px;
+}
+#submit{
+  padding: 15px 30px;
+  -webkit-box-align: center;
+  border-radius: 500px;
+  width: 250px;
+  background-color: #F6A21E
+  ;
+  margin-top: 5px;
+}
+.form-lupa-sandi a{
+  color: white;
+}
+:root{
+  --primary-color: black;
+  --secondary-color: white;
+  --tertiary-color: rgba(4,9,30,0.6);
+}
+
+.light-mode{
+  --primary-color: white;
+  --secondary-color: black;
+  --tertiary-color: rgba(255,255,255,0.6);    
+}
